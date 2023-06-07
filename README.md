@@ -7,7 +7,7 @@
 - Path : `/predict/{userId}`
 - Method : `POST`
 - Request Body (form-data) :
-  - file as `image`, jpg or png
+  - file as `image`, jpg format
 - Response :
 
 ```json
