@@ -1,3 +1,5 @@
+![ml-model-diagram](https://github.com/JavierZam/ml-model-deployment/assets/69651946/e9d54969-1da7-4dfd-a703-3251c608ad75)
+
 # ML Model Deployment
 
 ## Endpoint
