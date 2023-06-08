@@ -41,7 +41,7 @@ def upload_file_to_gcs(user_id: str, image_bytes: bytes, filename: str):
     blob.make_public()
 
     return blob.public_url
-
+#test
 def predict(image_bytes: bytes, user_id: str):
     image = Image.open(BytesIO(image_bytes))
     image = image.resize((128, 128))
