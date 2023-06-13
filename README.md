@@ -4,8 +4,6 @@
 
 ## Endpoint
 
-- base url: https://ml-model-deployment-ymrdyfncwq-et.a.run.app/
-
 - Path : `/predict/{userId}`
 - Method : `POST`
 - Request Body (form-data) :
