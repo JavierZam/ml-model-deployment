@@ -30,7 +30,7 @@ db = firestore.Client()
 app = FastAPI()
 
 def upload_file_to_gcs(user_id: str, image_bytes: bytes, filename: str):
-    bucket_name = "foods-image"
+    bucket_name = "inifoodimage"
     storage_client = gcs.Client()
     bucket = storage_client.get_bucket(bucket_name)
     blob = bucket.blob(f'{user_id}/{filename}')
